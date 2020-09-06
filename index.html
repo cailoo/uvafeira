@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hDC Agency - a sua agência web</title>
+  <!-- Fonte -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+  <!-- Estilos -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Scripts (jQuery não pode ser o slim que vem do Boostrap) -->
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+  <!-- Progress Bar -->
+  <script src="js/progressbar.min.js"></script>
+  <!-- Parallax -->
+  <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+<!-- jQuery Modal -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+ 
+</head>
+<body>
+  <header>
+  </header>
+  <main>
+    <div id="ex1" class="modal">
+  <p>Thanks for clicking. That felt good.</p>
+  <a href="#" rel="modal:close">Close</a>
+   
+</div>
+	 <div id="ex2" class="modal">
+  <p>Thanks for clicking. ih rapaz.</p>
+  <a href="#" rel="modal:close">Close</a>
+</div>
+
+      <!-- Portfólio -->
+      <div id="portfolio-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 class="main-title">Empresas Parceiras</h3>
+            </div>
+            <div class="col-md-12" id="filter-btn-box">
+              <button class="main-btn filter-btn active" id="all-btn">Todos</button>
+              <button class="main-btn filter-btn" id="dev-btn">Desenvolvimento</button>
+              <button class="main-btn filter-btn" id="dsg-btn">Design</button>
+              <button class="main-btn filter-btn" id="eng-btn">Soluções energéticas</button>
+			   <button class="main-btn filter-btn" id="psi-btn">Psicologia</button>
+            </div>
+            <div class="col-md-4 project-box dev">
+              <img src="img/proj1.jpg" class="img-fluid" alt="Projeto 1">
+			  <!-- Link to open the modal -->
+<p><a href="#ex1" rel="modal:open">Conheça a empresa</a></p>
+            </div>
+			 <div class="col-md-4 project-box eng">
+              <img src="img/proj8.jpg" class="img-fluid" alt="Projeto 8">
+			  <p><a href="#ex2" rel="modal:open">Conheça a empresa</a></p>
+            </div>
+            <div class="col-md-4 project-box dsg">
+              <img src="img/proj2.jpg" class="img-fluid" alt="Projeto 2">
+            </div>
+            <div class="col-md-4 project-box eng">
+              <img src="img/proj3.jpg" class="img-fluid" alt="Projeto 3">
+            </div>
+            <div class="col-md-4 project-box dev">
+              <img src="img/proj4.jpg" class="img-fluid" alt="Projeto 4">
+            </div>
+            <div class="col-md-4 project-box dsg">
+              <img src="img/proj5.jpg" class="img-fluid" alt="Projeto 5">
+            </div>
+            <div class="col-md-4 project-box eng">
+              <img src="img/proj6.jpg" class="img-fluid" alt="Projeto 6">
+			</div>
+			<div class="col-md-4 project-box psi">
+              <img src="img/proj7.jpg" class="img-fluid" alt="Projeto 7">  
+            </div>
+          </div>
+        </div>
+      </div>
+      
+	 
+  
+  <!-- Rodapé -->
+  <footer>
+    <div id="copy-area">
+      <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+              <p>teste para <a href="" target="_blank">projeto uva</a> &copy; 2020</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Scripts do projeto -->
+  <script src="js/scripts.js"></script>
+</body>
+</html>
